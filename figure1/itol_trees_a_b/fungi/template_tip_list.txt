@@ -1,0 +1,100 @@
+DATASET_SYMBOL						
+#Symbol datasets allow the display of various symbols on the branches of the tree. For each node	 one or more symbols can be defined.					
+#Each symbol's color	 size and position along the branch can be specified.					
+						
+#lines starting with a hash are comments and ignored during parsing						
+#=================================================================#						
+#                    MANDATORY SETTINGS                           #						
+#=================================================================#						
+#select the separator which is used to delimit the data below (TAB	SPACE or COMMA).This separator must be used throughout this file (except in the SEPARATOR line	 which uses space).				
+SEPARATOR TAB						
+#SEPARATOR SPACE						
+#SEPARATOR COMMA						
+						
+#label is used in the legend table (can be changed later)						
+DATASET_LABEL	example symbols					
+						
+#dataset color (can be changed later)						
+COLOR	#ffff00					
+						
+#=================================================================#						
+#                    OPTIONAL SETTINGS                            #						
+#=================================================================#						
+						
+#each dataset can have a legend	 which is defined below					
+#for each row in the legend	 there should be one shape	 color and label				
+#shape should be a number between 1 and 5:						
+#1: square						
+#2: circle						
+#3: star						
+#4: right pointing triangle						
+#5: left pointing triangle						
+						
+#LEGEND_TITLE	Dataset legend					
+#LEGEND_SHAPES	1	2	3			
+#LEGEND_COLORS	#ff0000	#00ff00	#0000ff			
+#LEGEND_LABELS	value1	value2	value3			
+						
+#=================================================================#						
+#     all other optional settings can be set or changed later     #						
+#           in the web interface (under 'Datasets' tab)           #						
+#=================================================================#						
+						
+#largest symbol will be displayed with this size	 others will be proportionally smaller.					
+MAXIMUM_SIZE	20					
+						
+						
+#Internal tree nodes can be specified using IDs directly	 or using the 'last common ancestor' method described in iTOL help pages					
+#=================================================================#						
+"#       Actual data follows after the ""DATA"" keyword              #"						
+#=================================================================#						
+#the following fields are required for each node:						
+#ID	symbol	size	color	fill	position	label
+#symbol should be a number between 1 and 5:						
+#1: rectangle						
+#2: circle						
+#3: star						
+#4: right pointing triangle						
+#5: left pointing triangle						
+						
+#size can be any number. Maximum size in the dataset will be displayed using MAXIMUM_SIZE	 while others will be proportionally smaller					
+#color can be in hexadecimal	 RGB or RGBA notation. If RGB or RGBA are used	 dataset SEPARATOR cannot be comma.				
+#fill can be 1 or 0. If set to 0	 only the outline of the symbol will be displayed.					
+#position is a number between 0 and 1 and defines the position of the symbol on the branch (for example	 position 0 is exactly at the start of node branch	 position 0.5 is in the middle	 and position 1 is at the end)			
+						
+DATA						
+Verdah1	2	3	#B40486	1	1
+Plecuc1	2	3	#B40486	1	1
+Zalva1	2	3	#FA5882	1	1
+Stael1	2	3	#B40404	1	1
+Cylol1	2	3	#B40404	1	1
+Dacma1	2	3	#B40404	1	1
+Daces1	2	3	#B40404	1	1
+Neora1	2	3	#B40404	1	1
+Ilyeu1	2	3	#B40404	1	1
+Fusven1	2	3	#B40404	1	1
+Fusarium233	2	3	#B40404	1	1
+Fuseq1	2	3	#B40404	1	1
+Fusarium226	2	3	#B40404	1	1
+Fusarium13	2	3	#B40404	1	1
+Fusarium216	2	3	#B40404	1	1
+Fusre1	2	3	#B40404	1	1
+Plecto143	2	3	#B40486	1	1
+Morel_U14_1	2	3	#2E2E2E	1	1
+Denna1	2	3	#B18904	1	1
+Chame1	2	3	#FA8258	1	1
+Chafu1	2	3	#FA8258	1	1
+Mictri1	2	3	#7c1fA4	1	1
+
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						

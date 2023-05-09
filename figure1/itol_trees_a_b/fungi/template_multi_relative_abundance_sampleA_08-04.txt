@@ -1,0 +1,105 @@
+DATASET_MULTIBAR					
+#In multi-value bar charts, each ID is associated to multiple numeric values, which are displayed as a stacked or aligned bar chart					
+#lines starting with a hash are comments and ignored during parsing					
+					
+#=================================================================#					
+#                    MANDATORY SETTINGS                           #					
+#=================================================================#					
+#select the separator which is used to delimit the data below (TAB,SPACE or COMMA).This separator must be used throughout this file (except in the SEPARATOR line, which uses space).					
+#SEPARATOR TAB					
+#SEPARATOR SPACE					
+SEPARATOR COMMA					
+					
+#label is used in the legend table (can be changed later)					
+DATASET_LABEL,example multi bar chart					
+					
+#dataset color (can be changed later)					
+COLOR,#ff0000					
+					
+"#define colors for each individual field column (use hexadecimal, RGB or RGBA notation; if using RGB/RGBA, COMMA cannot be used as SEPARATOR)"					
+FIELD_COLORS,#DF7401,#B45F04					
+					
+#field labels					
+FIELD_LABELS,f1,f2					
+					
+#=================================================================#					
+#                    OPTIONAL SETTINGS                            #					
+#=================================================================#					
+					
+#dataset scale: you can simply set the values where the scale will be drawn					
+#DATASET_SCALE,2000,10000,20000					
+#or you can specify value, label and color for each scale line (dash separated, format: VALUE-LABEL-COLOR) 					
+#DATASET_SCALE,2000-2k line-#0000ff,10000-line at 10k-#ff0000,20000-3rd line-#00ff00					
+					
+#each dataset can have a legend, which is defined below					
+#for each row in the legend, there should be one shape, color and label					
+#shape should be a number between 1 and 6:					
+#1: square					
+#2: circle					
+#3: star					
+#4: right pointing triangle					
+#5: left pointing triangle					
+#6: checkmark					
+					
+#LEGEND_TITLE,Dataset legend					
+#LEGEND_SHAPES,1,2,3					
+#LEGEND_COLORS,#ff0000,#00ff00,#0000ff					
+#LEGEND_LABELS,value1,value2,value3					
+					
+#=================================================================#					
+#     all other optional settings can be set or changed later     #					
+#           in the web interface (under 'Datasets' tab)           #					
+#=================================================================#					
+					
+#maximum width					
+WIDTH,500					
+					
+#left margin, used to increase/decrease the spacing to the next dataset. Can be negative, causing datasets to overlap.					
+#MARGIN,0					
+					
+"#always show internal values; if set, values associated to internal nodes will be displayed even if these nodes are not collapsed. It could cause overlapping in the dataset display."					
+#SHOW_INTERNAL,0					
+					
+"#bar height factor; Default bar height will be slightly less than the available space between leaves, but you can set a multiplication factor here to increase/decrease it (values from 0 to 1 will decrease it, values above 1 will increase it)"					
+#HEIGHT_FACTOR,1					
+					
+#Bars are aligned to the node lines by default. Using BAR_SHIFT, you can move them all up/down by a fixed amount					
+#BAR_SHIFT,0					
+					
+"#align individual fields; if set to 1, individual bar charts will not be stacked"					
+ALIGN_FIELDS,0					
+					
+"#border width; if set above 0, a border of specified width (in pixels) will be drawn around the bars"					
+#BORDER_WIDTH,0					
+					
+"#border color; used when BORDER_WIDTH is above 0"					
+#BORDER_COLOR,#0000ff					
+					
+#Internal tree nodes can be specified using IDs directly, or using the 'last common ancestor' method described in iTOL help pages					
+#=================================================================#					
+"#       Actual data follows after the ""DATA"" keyword              #"					
+#=================================================================#					
+DATA					
+Chafu1,0.0860209894004007,0
+Chame1,0.0292936342282446,0
+Cylol1,0.0441729405029085,0
+Daces1,0.170647043837552,0
+Dacma1,0.0902057942901499,0
+Denna1,1.69252108874302,0
+Fusarium13,4.08403850783063,1.86193965985627
+Fusarium216,8.19967601240544,9.23917364238768
+Fusarium226,3.80006741255699,1.90061469669069
+Fusarium233,0.183444177190405,0.00093088659880866
+Fuseq1,3.31183599061469,0
+Fusre1,5.32893612634651,9.17445470481107
+Fusven1,0.14600319282014,0
+Ilyeu1,0.82851557670401,0
+Mictri1,0.0162742412379136,0
+Morel_U14_1,0.0720716397679033,0
+Neora1,2.65975178806251,0.00464978321083247
+Plecto143,12.0473530202365,3.92825961078804
+Plecuc1,13.952514739929,3.02989127086433
+Stael1,0.0330134607969105,0
+Verdah1,12.7803941332941,0.476137800789245
+Zalva1,0.827196433207096,0
+

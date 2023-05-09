@@ -1,0 +1,166 @@
+DATASET_MULTIBAR					
+#In multi-value bar charts, each ID is associated to multiple numeric values, which are displayed as a stacked or aligned bar chart					
+#lines starting with a hash are comments and ignored during parsing					
+					
+#=================================================================#					
+#                    MANDATORY SETTINGS                           #					
+#=================================================================#					
+#select the separator which is used to delimit the data below (TAB,SPACE or COMMA).This separator must be used throughout this file (except in the SEPARATOR line, which uses space).					
+#SEPARATOR TAB					
+#SEPARATOR SPACE					
+SEPARATOR COMMA					
+					
+#label is used in the legend table (can be changed later)					
+DATASET_LABEL,example multi bar chart					
+					
+#dataset color (can be changed later)					
+COLOR,#ff0000					
+					
+"#define colors for each individual field column (use hexadecimal, RGB or RGBA notation; if using RGB/RGBA, COMMA cannot be used as SEPARATOR)"					
+FIELD_COLORS,#DF7401,#B45F04					
+					
+#field labels					
+FIELD_LABELS,f1,f2					
+					
+#=================================================================#					
+#                    OPTIONAL SETTINGS                            #					
+#=================================================================#					
+					
+#dataset scale: you can simply set the values where the scale will be drawn					
+#DATASET_SCALE,2000,10000,20000					
+#or you can specify value, label and color for each scale line (dash separated, format: VALUE-LABEL-COLOR) 					
+#DATASET_SCALE,2000-2k line-#0000ff,10000-line at 10k-#ff0000,20000-3rd line-#00ff00					
+					
+#each dataset can have a legend, which is defined below					
+#for each row in the legend, there should be one shape, color and label					
+#shape should be a number between 1 and 6:					
+#1: square					
+#2: circle					
+#3: star					
+#4: right pointing triangle					
+#5: left pointing triangle					
+#6: checkmark					
+					
+#LEGEND_TITLE,Dataset legend					
+#LEGEND_SHAPES,1,2,3					
+#LEGEND_COLORS,#ff0000,#00ff00,#0000ff					
+#LEGEND_LABELS,value1,value2,value3					
+					
+#=================================================================#					
+#     all other optional settings can be set or changed later     #					
+#           in the web interface (under 'Datasets' tab)           #					
+#=================================================================#					
+					
+#maximum width					
+WIDTH,500					
+					
+#left margin, used to increase/decrease the spacing to the next dataset. Can be negative, causing datasets to overlap.					
+#MARGIN,0					
+					
+"#always show internal values; if set, values associated to internal nodes will be displayed even if these nodes are not collapsed. It could cause overlapping in the dataset display."					
+#SHOW_INTERNAL,0					
+					
+"#bar height factor; Default bar height will be slightly less than the available space between leaves, but you can set a multiplication factor here to increase/decrease it (values from 0 to 1 will decrease it, values above 1 will increase it)"					
+#HEIGHT_FACTOR,1					
+					
+#Bars are aligned to the node lines by default. Using BAR_SHIFT, you can move them all up/down by a fixed amount					
+#BAR_SHIFT,0					
+					
+"#align individual fields; if set to 1, individual bar charts will not be stacked"					
+ALIGN_FIELDS,0					
+					
+"#border width; if set above 0, a border of specified width (in pixels) will be drawn around the bars"					
+#BORDER_WIDTH,0					
+					
+"#border color; used when BORDER_WIDTH is above 0"					
+#BORDER_COLOR,#0000ff					
+					
+#Internal tree nodes can be specified using IDs directly, or using the 'last common ancestor' method described in iTOL help pages					
+#=================================================================#					
+"#       Actual data follows after the ""DATA"" keyword              #"					
+#=================================================================#					
+DATA					
+Root100,0.0163677358736089,0
+Root101,0.0576205142342813,0
+Root102,0.296322399416402,0.000824199764375304
+Root105,5.24968002786818e-06,0
+Root107,0,0
+Root11,0.000687708083650731,0
+Root1203,0.0542764418081291,0
+Root1212,5.24968002786818e-06,0
+Root122,0.00896120380757098,0
+Root1220,5.24968002786818e-06,0
+Root1238,0.00101310425049811,0
+Root123D2,1.02641218411908,0
+Root1240,0,0
+Root1252,0.000514216658089744,0
+Root1257,1.04993600557364e-05,0
+Root1277,0.659827033022723,0
+Root1280,6.94941092793128,0
+Root1293,5.24968002786818e-06,0
+Root1294,0,0
+Root1295,0,0
+Root1298,0.00368762723621595,0.166630267004005
+Root1304,0,0
+Root1310,0,0
+Root1312,0.00456154672013519,0.162694056919109
+Root133,0.000293982081560618,0
+Root136,0,0
+Root1433D1,0.0442603515467182,0.203417657033612
+Root1455,0,0
+Root1464,5.24968002786818e-06,0
+Root1471,3.71834836373903e-05,0
+Root1472,0,0
+Root149,2.06391170295637,0.00245160057301444
+Root151,1.57490400836045e-05,0
+Root154,3.13024245925704,0
+Root157,0,0
+Root170,9.44942405016272e-05,0
+Root172,0.436224555769799,0.000824199764375304
+Root179,14.4047064055509,0
+Root180,0.00347003849842087,0
+Root181,0.172462488275525,0
+Root186,0,0
+Root189,0,0
+Root190,0.000199487841058991,0
+Root198D2,0.000665654177853657,0
+Root217,2.09987201114727e-05,0
+Root22,0.341071711410596,0
+Root236,0,0
+Root240,0,0
+Root241,5.24968002786818e-06,0
+Root265,0,0
+Root278,0.000321731890187929,2.09987201114727e-06
+Root318D1,0.000178489120947518,0
+Root322,2.56459814547341,0.203417751527853
+Root332,0,0
+Root381,1.57490400836045e-05,0
+Root423,0.0110687088534788,0.0382933604895221
+Root431,0,0
+Root444D2,0.000183738800975386,0
+Root456,0.000125992320668836,0
+Root480,0.0675438846470399,0
+Root482,0,0
+Root491,0.327023819640662,0
+Root495,0,0
+Root53,0.0761997250667499,0
+Root552,0,0
+Root558,0.0078930619116607,0.0362484368792266
+Root559,21.7825093771497,1.29457508462911
+Root564,0.000472565696748638,0.00245160057301444
+Root569,17.6773906641181,0
+Root61,12.0276940685747,0
+Root614,0,0
+Root630,0.00624077761968947,0
+Root635,0,0
+Root667,0.437026318401735,1.29470790153382
+Root670,0.770926011452498,0
+Root68,3.85002997264127,0
+Root685,5.41190564008936,0
+Root70,1.50251617045618,0
+Root710,0,0
+Root74,0.0165706465060461,0.166939457408606
+Root916,0.0478340817250495,0
+Root920,0,0
+Root935,0.000824199764375304,0
+Root954,0.000345103465671998,0.161701778149282

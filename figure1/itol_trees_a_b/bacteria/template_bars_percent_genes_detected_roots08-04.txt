@@ -1,0 +1,169 @@
+DATASET_SIMPLEBAR
+#In simple bar charts, each ID is associated to a single numeric value which is displayed as a bar outside the tree.
+#lines starting with a hash are comments and ignored during parsing
+
+#=================================================================#
+#                    MANDATORY SETTINGS                           #
+#=================================================================#
+#select the separator which is used to delimit the data below (TAB,SPACE or COMMA).This separator must be used throughout this file (except in the SEPARATOR line, which uses space).
+#SEPARATOR TAB
+#SEPARATOR SPACE
+SEPARATOR COMMA
+
+#label is used in the legend table (can be changed later)
+DATASET_LABEL,label 1
+
+#dataset color (can be changed later)
+COLOR,#ff0000
+
+#=================================================================#
+#                    OPTIONAL SETTINGS                            #
+#=================================================================#
+#dataset scale: you can simply set the values where the scale will be drawn
+#DATASET_SCALE,2000,10000,20000
+#or you can specify value, label and color for each scale line (dash separated, format: VALUE-LABEL-COLOR) 
+#DATASET_SCALE,2000-2k line-#0000ff,10000-line at 10k-#ff0000,20000
+
+#each dataset can have a legend, which is defined below
+#for each row in the legend, there should be one shape, color and label
+#shape should be a number between 1 and 6:
+#1: square
+#2: circle
+#3: star
+#4: right pointing triangle
+#5: left pointing triangle
+#6: checkmark
+
+#LEGEND_TITLE,Dataset legend
+#LEGEND_SHAPES,1,2,3
+#LEGEND_COLORS,#ff0000,#00ff00,#0000ff
+#LEGEND_LABELS,value1,value2,value3
+
+
+#=================================================================#
+#     all other optional settings can be set or changed later     #
+#           in the web interface (under 'Datasets' tab)           #
+#=================================================================#
+#all other optional settings can be set or changed later in the web interface (under 'Datasets' tab)
+
+#maximum width
+#WIDTH,1000
+
+#left margin, used to increase/decrease the spacing to the next dataset. Can be negative, causing datasets to overlap.
+#MARGIN,0
+
+"#always show internal values; if set, values associated to internal nodes will be displayed even if these nodes are not collapsed. It could cause overlapping in the dataset display."
+#SHOW_INTERNAL,0
+
+"#bar height factor; Default bar height will be slightly less than the available space between leaves, but you can set a multiplication factor here to increase/decrease it (values from 0 to 1 will decrease it, values above 1 will increase it)"
+#HEIGHT_FACTOR,1
+
+#Display individual values above the bars
+#SHOW_VALUE,0
+
+#Bars are aligned to the node lines by default. Using BAR_SHIFT, you can move them all up/down by a fixed amount
+#BAR_SHIFT,0
+
+#BAR_ZERO specifies which dataset value will be used as a starting point for drawing the bars. Dataset values smaller than BAR_ZERO will be displayed to the left (possibly overlapping the tree, unless MARGIN is increased)
+#BAR_ZERO,0
+
+"#border width; if set above 0, a border of specified width (in pixels) will be drawn around the bars"
+#BORDER_WIDTH,0
+
+"#border color; used when BORDER_WIDTH is above 0"
+#BORDER_COLOR,#0000ff
+
+#Internal tree nodes can be specified using IDs directly, or using the 'last common ancestor' method described in iTOL help pages
+#=================================================================#
+"#       Actual data follows after the ""DATA"" keyword              #"
+#=================================================================#
+DATA
+#ID1,value1
+#ID2,value2
+#9606,10000
+#LEAF1|LEAF2,11000
+
+Root100,5.42466838249852
+Root101,26.9494850416871
+Root102,18.2728790408256
+Root105,0
+Root107,0
+Root11,2.91727140783745
+Root1203,2.39975698663426
+Root1212,0.477611940298507
+Root122,6.88052068805207
+Root1220,0.0178475816526861
+Root1238,0.0509424350483953
+Root123D2,50
+Root1240,0.0679347826086956
+Root1252,0.364225010117361
+Root1257,0
+Root1277,26.6892710099298
+Root1280,59.2878203674303
+Root1293,0.0592943966795138
+Root1294,0.0194552529182879
+Root1295,0
+Root1298,41.2569474134245
+Root1304,0
+Root1310,0
+Root1312,41.2327008132401
+Root133,0.0162416761409777
+Root136,0
+Root1433D1,22.18952324897
+Root1455,0
+Root1464,0.0815660685154976
+Root1471,0.469094922737307
+Root1472,0
+Root149,60.5741626794258
+Root151,0.0208159866777685
+Root154,54.0804728347352
+Root157,0.0243842965130456
+Root170,0.01886080724255
+Root172,15.3869638223172
+Root179,81.1287988422576
+Root180,0.51513200257566
+Root181,22.8878648233487
+Root186,0.0211416490486258
+Root189,0
+Root190,0
+Root198D2,0.0169836956521739
+Root217,0.0961384393526678
+Root22,44.472236118059
+Root236,0
+Root240,0
+Root241,0
+Root265,0.0308928019771393
+Root278,0.282822268532301
+Root318D1,0.018677624206201
+Root322,82.8855140186916
+Root332,0.0807754442649435
+Root381,1.53846153846154
+Root423,11.4355934653752
+Root431,0
+Root444D2,0.0548696844993141
+Root456,0
+Root480,70.8837209302326
+Root482,0.0398724082934609
+Root491,45.2025993883792
+Root495,0.0284010224368077
+Root53,42.7328742297934
+Root552,0.0443066016836509
+Root558,11.0133450652588
+Root559,91.3592984266185
+Root564,0.763673890608875
+Root569,71.3725490196078
+Root61,84.3967828418231
+Root614,0
+Root630,0.097799511002445
+Root635,0
+Root667,26.5497967479675
+Root670,41.6132167152575
+Root68,51.3034225926583
+Root685,53.4855477289288
+Root70,58.5497835497836
+Root710,0.0219250164437623
+Root74,41.3439635535307
+Root916,2.88932419196866
+Root920,0
+Root935,1.60956541733732
+Root954,40.9934341992578

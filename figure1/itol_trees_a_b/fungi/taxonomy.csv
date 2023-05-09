@@ -1,0 +1,23 @@
+;Strain;MPI;phylum;class;order;species;colors
+Verdah1;Verdah1;MPI-CAGE-AT-0001;Ascomycota;Sordariomycetes;Glomerellales;Verticillium dahliae;#cc80ff
+Plecuc1;Plecuc1;MPI-CAGE-AT-0016;Ascomycota;Sordariomycetes;Glomerellales;Plectosphaerella cucumerina;#cc80ff
+Zalva1;Zalva1;MPI-CAGE-AT-0135;Ascomycota;Leotiomycetes;Helotiales;Zalerion varium;#b300b3
+Stael1;Stael1;MPI-CAGE-CH-0235;Ascomycota;Sordariomycetes;Hypocreales;Stachybotrys elegans;#ff0066
+Cylol1;Cylol1;MPI-CAGE-CH-0241;Ascomycota;Sordariomycetes;Hypocreales;Cylindrocarpon olidum;#ff0066
+Dacma1;Dacma1;MPI-CAGE-AT-0147;Ascomycota;Sordariomycetes;Hypocreales;Dactylonectria macrodidyma;#ff0066
+Daces1;Daces1;MPI-CAGE-AT-0021;Ascomycota;Sordariomycetes;Hypocreales;Dactylonectria estremocensis;#ff0066
+Neora1;Neora1;MPI-CAGE-AT-0134;Ascomycota;Sordariomycetes;Hypocreales;Neonectria radicicola;#ff0066
+Ilyeu1;Ilyeu1;MPI-CAGE-AT-0026;Ascomycota;Sordariomycetes;Hypocreales;Ilyonectria europaea;#ff0066
+Fusven1;Fusven1;MPI-CAGE-CH-0201;Ascomycota;Sordariomycetes;Hypocreales;Fusarium venenatum;#ff0066
+Fusarium233;Fusarium233;MPI-CAGE-CH-0233;Ascomycota;Sordariomycetes;Hypocreales;Fusarium cf equiseti MY_2011 / Gibberella intricans;#ff0066
+Fuseq1;Fuseq1;MPI-CAGE-AA-0113;Ascomycota;Sordariomycetes;Hypocreales;Fusarium equiseti;#ff0066
+Fusarium226;Fusarium226;MPI-CAGE-CH-0226;Ascomycota;Sordariomycetes;Hypocreales;Fusarium oxysporum;#ff0066
+Fusarium13;Fusarium13;MPI-CAGE-AT-0013;Ascomycota;Sordariomycetes;Hypocreales;Fusarium oxysporum;#ff0066
+Fusarium216;Fusarium216;MPI-CAGE-CH-0216;Ascomycota;Sordariomycetes;Hypocreales;Fusarium redolens;#ff0066
+Fusre1;Fusre1;MPI-CAGE-AT-0023;Ascomycota;Sordariomycetes;Hypocreales;Fusarium redolens;#ff0066
+Plecto143;Plecto143;MPI-CAGE-AT-0143;Ascomycota;Sordariomycetes;Glomerellales;Plectosphaerella cucumerina;#cc80ff
+MorelU141;MorelU141;MPI-CAGE-AA-0104;Mucoromycota;Mortierellomycetes;Mortierellales;Mortierella elongata;#ac00e6
+Denna1;Denna1;MPI-CAGE-CH-0243;Ascomycota;Dothideomycetes;Pleosporales;Dendryphion nanum;#bb79d7
+Chame1;Chame1;MPI-CAGE-AT-0009;Ascomycota;Sordariomycetes;Sordariales;Chaetomium megalocarpum;#ffe6ff
+Chafu1;Chafu1;MPI-SDFR-AT-0129;Ascomycota;Sordariomycetes;Sordariales;Chaetomium funicola;#ffe6ff
+Mictri1;Mictri1;MPI-CAGE-CH-0230;Ascomycota;Sordariomycetes;Xylariales;Microdochium trichocladiopsis;#7c1fA4

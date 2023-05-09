@@ -1,0 +1,161 @@
+DATASET_SYMBOL						
+#Symbol datasets allow the display of various symbols on the branches of the tree. For each node	 one or more symbols can be defined.					
+#Each symbol's color	 size and position along the branch can be specified.					
+						
+#lines starting with a hash are comments and ignored during parsing						
+#=================================================================#						
+#                    MANDATORY SETTINGS                           #						
+#=================================================================#						
+#select the separator which is used to delimit the data below (TAB	SPACE or COMMA).This separator must be used throughout this file (except in the SEPARATOR line	 which uses space).				
+SEPARATOR TAB						
+#SEPARATOR SPACE						
+#SEPARATOR COMMA						
+						
+#label is used in the legend table (can be changed later)						
+DATASET_LABEL	example symbols					
+						
+#dataset color (can be changed later)						
+COLOR	#ffff00					
+						
+#=================================================================#						
+#                    OPTIONAL SETTINGS                            #						
+#=================================================================#						
+						
+#each dataset can have a legend	 which is defined below					
+#for each row in the legend	 there should be one shape	 color and label				
+#shape should be a number between 1 and 5:						
+#1: square						
+#2: circle						
+#3: star						
+#4: right pointing triangle						
+#5: left pointing triangle						
+						
+#LEGEND_TITLE	Dataset legend					
+#LEGEND_SHAPES	1	2	3			
+#LEGEND_COLORS	#ff0000	#00ff00	#0000ff			
+#LEGEND_LABELS	value1	value2	value3			
+						
+#=================================================================#						
+#     all other optional settings can be set or changed later     #						
+#           in the web interface (under 'Datasets' tab)           #						
+#=================================================================#						
+						
+#largest symbol will be displayed with this size	 others will be proportionally smaller.					
+MAXIMUM_SIZE	20					
+						
+						
+#Internal tree nodes can be specified using IDs directly	 or using the 'last common ancestor' method described in iTOL help pages					
+#=================================================================#						
+"#       Actual data follows after the ""DATA"" keyword              #"						
+#=================================================================#						
+#the following fields are required for each node:						
+#ID	symbol	size	color	fill	position	label
+#symbol should be a number between 1 and 5:						
+#1: rectangle						
+#2: circle						
+#3: star						
+#4: right pointing triangle						
+#5: left pointing triangle						
+						
+#size can be any number. Maximum size in the dataset will be displayed using MAXIMUM_SIZE	 while others will be proportionally smaller					
+#color can be in hexadecimal	 RGB or RGBA notation. If RGB or RGBA are used	 dataset SEPARATOR cannot be comma.				
+#fill can be 1 or 0. If set to 0	 only the outline of the symbol will be displayed.					
+#position is a number between 0 and 1 and defines the position of the symbol on the branch (for example	 position 0 is exactly at the start of node branch	 position 0.5 is in the middle	 and position 1 is at the end)			
+						
+DATA						
+Root667	2	3	#ffff1a	1	1
+Root322	2	3	#995c00	1	1
+Root559	2	3	#ffff1a	1	1
+Root100	2	3	#009933	1	1
+Root101	2	3	#995c00	1	1
+Root102	2	3	#009933	1	1
+Root105	2	3	#009933	1	1
+Root107	2	3	#995c00	1	1
+Root11	2	3	#ffcc99	1	1
+Root1203	2	3	#009933	1	1
+Root1212	2	3	#009933	1	1
+Root122	2	3	#995c00	1	1
+Root1220	2	3	#009933	1	1
+Root123D2	2	3	#009933	1	1
+Root1238	2	3	#80ffaa	1	1
+Root1240	2	3	#009933	1	1
+Root1252	2	3	#009933	1	1
+Root1257	2	3	#995c00	1	1
+Root1277	2	3	#b3ffff	1	1
+Root1280	2	3	#e68a00	1	1
+Root1293	2	3	#995c00	1	1
+Root1294	2	3	#009999	1	1
+Root1295	2	3	#995c00	1	1
+Root1298	2	3	#009933	1	1
+Root1304	2	3	#995c00	1	1
+Root1310	2	3	#995c00	1	1
+Root1312	2	3	#009933	1	1
+Root133	2	3	#80ffaa	1	1
+Root136	2	3	#995c00	1	1
+Root1433D1	2	3	#995c00	1	1
+Root1455	2	3	#b3ffff	1	1
+Root1464	2	3	#995c00	1	1
+Root1471	2	3	#009933	1	1
+Root1472	2	3	#b3ffff	1	1
+Root149	2	3	#009933	1	1
+Root151	2	3	#995c00	1	1
+Root154	2	3	#009999	1	1
+Root157	2	3	#009933	1	1
+Root170	2	3	#80ffaa	1	1
+Root172	2	3	#009933	1	1
+Root179	2	3	#ffff1a	1	1
+Root180	2	3	#995c00	1	1
+Root181	2	3	#995c00	1	1
+Root186	2	3	#cccc00	1	1
+Root189	2	3	#80ffaa	1	1
+Root190	2	3	#995c00	1	1
+Root198D2	2	3	#80ffaa	1	1
+Root217	2	3	#80ffaa	1	1
+Root22	2	3	#995c00	1	1
+Root236	2	3	#995c00	1	1
+Root240	2	3	#995c00	1	1
+Root241	2	3	#009999	1	1
+Root265	2	3	#995c00	1	1
+Root278	2	3	#009933	1	1
+Root318D1	2	3	#80ffaa	1	1
+Root332	2	3	#995c00	1	1
+Root381	2	3	#009933	1	1
+Root423	2	3	#009933	1	1
+Root431	2	3	#995c00	1	1
+Root444D2	2	3	#ffcc99	1	1
+Root456	2	3	#995c00	1	1
+Root480	2	3	#ffff1a	1	1
+Root482	2	3	#009933	1	1
+Root491	2	3	#009933	1	1
+Root495	2	3	#995c00	1	1
+Root53	2	3	#995c00	1	1
+Root552	2	3	#009933	1	1
+Root558	2	3	#009933	1	1
+Root564	2	3	#009933	1	1
+Root569	2	3	#e68a00	1	1
+Root61	2	3	#995c00	1	1
+Root614	2	3	#995c00	1	1
+Root630	2	3	#ffff1a	1	1
+Root635	2	3	#009933	1	1
+Root670	2	3	#009933	1	1
+Root68	2	3	#e68a00	1	1
+Root685	2	3	#009933	1	1
+Root70	2	3	#80ffaa	1	1
+Root710	2	3	#009999	1	1
+Root74	2	3	#009933	1	1
+Root916	2	3	#ffff1a	1	1
+Root920	2	3	#ffcc99	1	1
+Root935	2	3	#cccc00	1	1
+Root954	2	3	#009933	1	1
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
